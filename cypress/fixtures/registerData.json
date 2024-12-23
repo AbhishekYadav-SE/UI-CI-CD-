@@ -1,0 +1,28 @@
+{    
+    "registration" :
+        {
+            "FirstName" : "Abhishek",
+            "LastName" : "Yadav",
+            "Email" : "abhishek@gmail.com",
+            "Telephone" : "1234567890",
+            "Password" : "Abc@123",
+            "PasswordConfirm" : "Abc@123"
+        },
+    
+    "login" : 
+        {
+            "Email" : "abhishek@gmail.com",
+            "Password" : "Abc@123"
+        },
+
+    "search" :
+        {
+            "Product" : "macbook"
+        },
+    
+    "message" : 
+        {
+            "SuccessMessage" : " Success: You have added MacBook to your shopping cart!"
+        }
+}
+

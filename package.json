@@ -1,0 +1,16 @@
+{
+  "name": "ui-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "framework": "npx cypress run --headed --browser chrome --spec cypress/E2E/Api_Framework/*/*.cy.js"
+  },
+  "author": "Abhishek",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
