@@ -12,7 +12,7 @@ class registerPage {
     }
 
     Openurl(){
-        cy.visit(Cypress.env(url))
+        cy.visit('https://naveenautomationlabs.com/opencart/index.php?route=account/register')
     }
 
     FirstName(FirstName){
