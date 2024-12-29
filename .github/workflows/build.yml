@@ -20,5 +20,5 @@ jobs:
           SLCK_MESSAGE: 'Test Automation Report https://github.com/AbhishekYadav-SE/UI-CI-CD-/actions/runs/$({github.run_id})'
           SLACK_TITLE: Cypress Web Test
           SLACK_USERNAME: rtCamp
-          Slack_WEBHOOK: 'https://hooks.slack.com/services/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'
+          Slack_WEBHOOK: $({ secrets.SLACK_WEBHOOK })
 
