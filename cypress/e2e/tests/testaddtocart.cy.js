@@ -38,4 +38,4 @@ describe("Product should be added on cart", () => {
       .and("contain", registionData.message.SuccessMessage);
   });
 });
-//
+
